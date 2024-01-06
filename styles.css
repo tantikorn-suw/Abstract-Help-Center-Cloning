@@ -7,8 +7,7 @@
     background-color: black;
     height: 100px;
 }
-.boo
-li{
+.booli{
 text-decoration: none;
 list-style: none;
 }
@@ -77,6 +76,7 @@ input[type="search"]{
     font-size: 24px;
 }
 .catsection a {
+    font-size: 24px;
     text-decoration: none;
     font-weight:600 ;
     transition: ease 0.5s;
@@ -146,3 +146,50 @@ footer{
         font-size: 16px;
     }
 }
+@media screen and (max-width:799px){
+    .right-nav{
+        padding-top: 1rem;
+    }
+    input[type="search"]{
+        width: 360px;
+    }
+    .hero-section span{
+        font-size: 40px
+    }
+    .bodynav{
+        padding-bottom: 10rem;
+    }
+  }
+  @media screen and (max-width:575px){
+
+    input[type="search"]{
+        width: 250px;
+    }
+    .arrow-svg{
+        right: 10px;
+    }
+    .searchbox{
+        width: 250px;
+    }
+    .catsection h5{
+        font-size: 14px;
+    }
+    .catsection{
+        padding-left: 0;
+    }
+    .catsection a{
+        font-size: 14px;
+    }
+    .catimg{
+        max-height: 40px;
+    }
+    .buttn{
+        margin: 0.3rem;
+        padding: 0.3rem 0.5rem;
+        border: 2px solid white;
+        border-radius: 8px;
+    }
+    .catsection{
+        overflow: hidden;
+    }
+  }
